@@ -30,7 +30,7 @@
   flex-direction: column;
   margin-top: 80px;
   padding: 80px;
-  background: linear-gradient(to right, #0e111b, #2f1c41);
+  /* background: linear-gradient(to right, #0e111b, #2f1c41); */
 }
 
 .section-header {
@@ -156,32 +156,26 @@
     {
       title: 'Strength Training',
       description: 'Build muscle and increase power with our comprehensive strength training programs.',
-      image: 'strength-training.jpg'
     },
     {
       title: 'Cardio Fitness',
       description: 'Improve endurance and burn calories with high-intensity cardio workouts.',
-      image: 'cardio-fitness.jpg'
     },
     {
       title: 'Flexibility & Yoga',
       description: 'Enhance flexibility and find inner peace with our yoga and stretching classes.',
-      image: 'flexibility-yoga.jpg'
     },
     {
       title: 'Wellness Programs',
       description: 'Focus on overall health and wellness with our holistic approach to fitness.',
-      image: 'wellness-programs.jpg'
     },
     {
       title: 'Wellness Programs',
       description: 'Focus on overall health and wellness with our holistic approach to fitness.',
-      image: 'wellness-programs.jpg'
     },
     {
       title: 'Wellness Programs',
       description: 'Focus on overall health and wellness with our holistic approach to fitness.',
-      image: 'wellness-programs.jpg'
     }
   ]
 </script>

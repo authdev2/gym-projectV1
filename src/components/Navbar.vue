@@ -26,7 +26,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 15px;
+        padding: 15px 80px;
         background: linear-gradient(to right, #0e111b, #2f1c41);        
     }
 

@@ -1,7 +1,7 @@
 <template>
   <div class="plans-gym">
     <h1>Choose Your Plan</h1>
-    <p>Flexible pricing options to fit your lifestyle and budget</p>
+    <p class="description-plans">Flexible pricing options to fit your lifestyle and budget</p>
 
     <div class="plan-gym-container">
       <div class="plan-gym-item">
@@ -21,9 +21,63 @@
             <i class="fa-solid fa-check"></i>
             Nutrition guidance
           </li>
-          <li>
+          <li class="last-item">
             <i class="fa-solid fa-xmark cruz-vermelho"></i>
             Personal training
+          </li>
+        </ul>
+        <button>Get Started</button>
+      </div>
+
+      <div class="plan-gym-item degrade-item">
+        <h2>Premium</h2>
+        <h3>$50<span>/month</span></h3>
+        <p>Everything you need</p>
+        <ul>
+          <li>
+            <i class="fa-solid fa-check"></i>
+            Gym access
+          </li>
+          <li>
+            <i class="fa-solid fa-check"></i>
+            Personalized training
+          </li>
+          <li>
+            <i class="fa-solid fa-check"></i>
+            Nutrition guidance
+          </li>
+          <li>
+            <i class="fa-solid fa-check"></i>
+            2x personal training sessions
+          </li>
+        </ul>
+        <button>Get Started</button>
+
+        <div class="most-popular">
+          <p>Most Popular</p>
+        </div>
+      </div>
+
+      <div class="plan-gym-item top-item">
+        <h2>Elite</h2>
+        <h3>$70<span>/month</span></h3>
+        <p>Perfect for beginners</p>
+        <ul>
+          <li>
+            <i class="fa-solid fa-check"></i>
+            Gym access
+          </li>
+          <li>
+            <i class="fa-solid fa-check"></i>
+            Personalized training
+          </li>
+          <li>
+            <i class="fa-solid fa-check"></i>
+            Nutrition guidance
+          </li>
+          <li>
+            <i class="fa-solid fa-check"></i>
+            8x personal training sessions
           </li>
         </ul>
         <button>Get Started</button>
@@ -41,7 +95,13 @@
   gap: 20px;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.plans-gym .description-plans {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 50px;
 }
 
 .plan-gym-container {
@@ -51,7 +111,6 @@
   gap: 20px;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 }
 
 .plan-gym-item {
@@ -95,8 +154,8 @@
   margin-bottom: 10px;
 }
 
-.plan-gym-item ul li:last-child {
-  color: #6B7280;
+.plan-gym-item ul li.last-item {
+  color: #6b7280;
 }
 
 .plan-gym-item ul li i {
@@ -115,5 +174,54 @@
   color: white;
   font-size: 16px;
   font-weight: 600;
+}
+
+.degrade-item {
+  background: linear-gradient(to right, #1f253f, #764ba2);
+  height: 500px;
+  position: relative;
+}
+
+.degrade-item button{
+    background-color: white;
+    color: #667EEA;
+}
+
+.most-popular {
+  position: absolute;
+  top: -4%;
+  right: 30%;
+  background-color: #F093FB;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.most-popular p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1f253f;
+}
+
+.top-item {
+  position: relative;
+}
+
+.top-item h2{
+    font-size: 40px;
+    color: #c39709b7;
+
+}
+
+.top-item h3{
+    font-size: 30px;
+
+}
+
+.top-item p{
+    font-size: 16px;
+}
+
+.top-item button{
+    background-color: #c39709b7;
 }
 </style>
