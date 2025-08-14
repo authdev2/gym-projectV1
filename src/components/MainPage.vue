@@ -34,7 +34,7 @@
     </div>
 
     <div class="right-side">
-      <img src="../assets/mainImage.png" alt="gym" />
+      <img src="../assets/mainImage.jpg" alt="gym" />
     </div>
   </div>
 </template>

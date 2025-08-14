@@ -1,7 +1,9 @@
 <template>
   <div class="plans-gym">
     <h1>Choose Your Plan</h1>
-    <p class="description-plans">Flexible pricing options to fit your lifestyle and budget</p>
+    <p class="description-plans">
+      Flexible pricing options to fit your lifestyle and budget
+    </p>
 
     <div class="plan-gym-container">
       <div class="plan-gym-item">
@@ -182,16 +184,16 @@
   position: relative;
 }
 
-.degrade-item button{
-    background-color: white;
-    color: #667EEA;
+.degrade-item button {
+  background-color: white;
+  color: #667eea;
 }
 
 .most-popular {
   position: absolute;
   top: -4%;
   right: 30%;
-  background-color: #F093FB;
+  background-color: #f093fb;
   padding: 10px 20px;
   border-radius: 20px;
 }
@@ -206,22 +208,21 @@
   position: relative;
 }
 
-.top-item h2{
-    font-size: 40px;
-    color: #c39709b7;
-
+.top-item h2 {
+  font-size: 40px;
+  color: #ffc402f5;
 }
 
-.top-item h3{
-    font-size: 30px;
-
+.top-item h3 {
+  font-size: 30px;
 }
 
-.top-item p{
-    font-size: 16px;
+.top-item p {
+  font-size: 16px;
 }
 
-.top-item button{
-    background-color: #c39709b7;
+.top-item button {
+  background-color: #ffc402f5;
+  color: black;
 }
 </style>
