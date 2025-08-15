@@ -149,7 +149,7 @@
   background-position: center;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1600px) {
 
   .training-programs-items {
     width: 300px;

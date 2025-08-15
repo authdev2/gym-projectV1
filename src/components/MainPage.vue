@@ -122,7 +122,7 @@
   height: 600px;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1600px) {
   .left-side h1 {
     font-size: 40px;
   }
@@ -135,9 +135,6 @@
   .info-gym-item i {
     font-size: 20px;
   }
-}
-
-@media (max-width: 1300px) {
 
   .right-side img {
     width: 400px;
