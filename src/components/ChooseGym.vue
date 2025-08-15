@@ -8,9 +8,15 @@
       </p>
 
       <div class="container-items">
-        <div class="choose-gym-items" v-for="item in chooseGymItems" :key="item.id">
-
-          <img :src="`./src/assets/svg-icons/${item.img}`" alt="Icons Choose Gym">
+        <div
+          class="choose-gym-items"
+          v-for="item in chooseGymItems"
+          :key="item.id"
+        >
+          <img
+            :src="`./src/assets/svg-icons/${item.img}`"
+            alt="Icons Choose Gym"
+          />
 
           <h3>{{ item.title }}</h3>
           <p>
@@ -80,46 +86,89 @@
   color: #d1d5db;
 }
 
-.choose-gym-items img{
+.choose-gym-items img {
   width: 50px;
   height: 50px;
 }
+
+@media (max-width: 1280px) {
+  .choose-gym-items {
+    background-color: #21272f50;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+  }
+
+  .choose-gym-items p {
+    font-size: 13px;
+  }
+
+  .choose-gym-items img[data-v-7fbe6f69] {
+    width: 40px;
+  }
+}
+
+@media (max-width: 980px) {
+  .container-items {
+    grid-template-columns: repeat(2, 300px);
+  }
+}
+
+@media (max-width: 630px) {
+  .container-items {
+    grid-template-columns: repeat(1, 300px);
+    text-align: center;
+  }
+  .choose-gym-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .choose-gym h2 {
+    text-align: center;
+}
+}
 </style>
 
-
 <script setup>
-
-  const chooseGymItems = [
-    {
-      img: 'svg1.svg',
-      title: 'Expert Trainers',
-      description: 'Our trainers are certified professionals with years of experience in helping clients achieve their fitness goals.'
-    },
-    {
-      img: 'svg2.svg',
-      title: '24/7 Access',
-      description: 'Work out on your schedule with round-the-clock access to our state-of-the-art facilities.'
-    },
-    {
-      img: 'svg3.svg',  
-      title: 'Advanced Analytics',
-      description: 'Advanced analytics and personalized insights to track your progress and optimize your workouts.'
-    },
-    {
-      img: 'svg3.svg',  
-      title: 'Advanced Analytics',
-      description: 'Advanced analytics and personalized insights to track your progress and optimize your workouts.'
-    },
-    {
-      img: 'svg3.svg',  
-      title: 'Advanced Analytics',
-      description: 'Advanced analytics and personalized insights to track your progress and optimize your workouts.'
-    },
-    {
-      img: 'svg3.svg',  
-      title: 'Advanced Analytics',
-      description: 'Advanced analytics and personalized insights to track your progress and optimize your workouts.'
-    }
-  ]
-
+const chooseGymItems = [
+  {
+    img: "svg1.svg",
+    title: "Expert Trainers",
+    description:
+      "Our trainers are certified professionals with years of experience in helping clients achieve their fitness goals.",
+  },
+  {
+    img: "svg2.svg",
+    title: "24/7 Access",
+    description:
+      "Work out on your schedule with round-the-clock access to our state-of-the-art facilities.",
+  },
+  {
+    img: "svg3.svg",
+    title: "Advanced Analytics",
+    description:
+      "Advanced analytics and personalized insights to track your progress and optimize your workouts.",
+  },
+  {
+    img: "svg3.svg",
+    title: "Advanced Analytics",
+    description:
+      "Advanced analytics and personalized insights to track your progress and optimize your workouts.",
+  },
+  {
+    img: "svg3.svg",
+    title: "Advanced Analytics",
+    description:
+      "Advanced analytics and personalized insights to track your progress and optimize your workouts.",
+  },
+  {
+    img: "svg3.svg",
+    title: "Advanced Analytics",
+    description:
+      "Advanced analytics and personalized insights to track your progress and optimize your workouts.",
+  },
+];
 </script>

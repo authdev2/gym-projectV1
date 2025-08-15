@@ -148,6 +148,45 @@
   background-size: cover;
   background-position: center;
 }
+
+@media (max-width: 1280px) {
+
+  .training-programs-items {
+    width: 300px;
+    height: 230px;
+}
+
+.card-content h4 {
+    font-size: 20px;
+  }
+
+  .card-content p {
+    font-size: 13px;
+}
+
+.section-header h2 {
+    font-size: 30px;
+}
+
+.section-header p {
+    font-size: 17px;
+}
+}
+
+@media (max-width: 980px) {
+  .container-training-programs {
+    grid-template-columns: repeat(2, 300px);
+    width: 610px;
+}
+}
+
+@media (max-width: 630px) {
+  .container-training-programs {
+    grid-template-columns: repeat(1, 300px);
+    width: 300px;
+}
+}
+
 </style>
 
 

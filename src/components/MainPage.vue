@@ -121,4 +121,38 @@
   width: 600px;
   height: 600px;
 }
+
+@media (max-width: 1400px) {
+  .left-side h1 {
+    font-size: 40px;
+  }
+
+  .left-side p {
+    font-size: 16px;
+    max-width: 400px;
+  }
+
+  .info-gym-item i {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1300px) {
+
+  .right-side img {
+    width: 400px;
+    height: 400px;
+}
+}
+
+@media (max-width: 980px) {
+
+  .main-page {
+    text-align: center;
+    flex-direction: column;
+    height: 130vh;
+    gap: 20px;
+  }
+}
+
 </style>
